@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*
+{
+    margin : 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --primary-color : hsl(0, 0%, 95%) ;
+    --secondary-color : hsla(0, 0%, 100%, 0.75);
+    --margin-value : 25px;
+    --secondary-font-size : 14px;
+}
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    max-width: 800px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+#sedan
+{
+    background-color: hsl(31, 77%, 52%) ;
+}
+
+#suv
+{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury
+{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.card
+{
+    padding : 30px 40px;
+}
+
+.card img
+{
+    margin-bottom: var(--margin-value);
+}
+
+.card h2
+{
+    color : var(--primary-color);
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', sans-serif;
+    margin-bottom: var(--margin-value);
+    font-size: 2.3rem;
+}
+
+.card p 
+{
+    color : var(--secondary-color);
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 65px;
+    font-size: var(--secondary-font-size);
+    line-height: 1.6;
+}
+
+.card button
+{
+    padding : 14px 25px;
+    border: 1px solid var(--primary-color);
+    border-radius: 22px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 20px;
+    font-size: var(--secondary-font-size);
+    transition: all 0.5s linear;
+}
+
+#sedan button
+{
+    color : hsl(31, 77%, 52%);
+}
+
+#suv button
+{
+    color: hsl(184, 100%, 22%);
+}
+
+#luxury button
+{
+    color: hsl(184, 100%, 22%);
+}
+
+.card button:hover
+{
+    cursor : pointer;
+    color : var(--primary-color) !important;
+    background-color: inherit;
+}
+
+

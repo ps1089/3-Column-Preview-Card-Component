@@ -1,0 +1,31 @@
+@media screen and (max-width : 732px) 
+{
+    body
+    {
+       padding : 2rem 1rem; 
+       overflow: auto;
+       align-items: start;
+    }
+    .container
+    {
+       height: 100%;
+       overflow: scroll; 
+       grid-template-columns: repeat(1,1fr);
+    }    
+
+    .card p 
+    {
+        margin-bottom: 0px;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (min-width : 732px) 
+{
+    .container
+    {
+        overflow: hidden;
+        margin : 1rem 1rem;
+    }    
+
+}
