@@ -19,5 +19,5 @@ Used CSS grid for creating the 3 column layout.
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/ps1089/3-Column-Preview-Card-Component
+- Live Site URL: https://ps1089.github.io/3-Column-Preview-Card-Component/
